@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Muhammed Shameem | Digital Marketer & Islamic Scholar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f5f0;
+      color: #2d2d2d;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #0f172a;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Amiri', serif;
+      font-size: 2.8rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+      font-weight: 300;
+    }
+
+    section {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .card {
+      background-color: white;
+      border-left: 5px solid #0f172a;
+      border-radius: 8px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+    }
+
+    .card h2 {
+      font-family: 'Amiri', serif;
+      color: #0f172a;
+      margin-bottom: 1rem;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.7rem 1.4rem;
+      background-color: #0f172a;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      margin-top: 1rem;
+      transition: background-color 0.3s ease;
+      font-weight: 500;
+    }
+
+    .btn:hover {
+      background-color: #1e293b;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li::before {
+      content: "✔️";
+      margin-right: 8px;
+      color: #0f172a;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      background-color: #f1ede9;
+      color: #666;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      .card {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Muhammed Shameem</h1>
+    <p>Digital Marketer | Graphics Designer | Islamic Scholar</p>
+  </header>
+
+  <section>
+    <div class="card">
+      <h2>About Me</h2>
+      <p>Asalamu Alaikum! I’m <strong>Muhammed Shameem</strong>, a dedicated digital marketing expert skilled in both online and offline strategies. I design impactful visual content as a graphics designer, and also serve my community as an Islamic scholar delivering knowledge with sincerity and clarity.</p>
+    </div>
+
+    <div class="card">
+      <h2>What I Do</h2>
+      <ul>
+        <li>Online & Offline Digital Marketing</li>
+        <li>Graphics Designing (Logos, Posters, Ads)</li>
+        <li>Social Media Promotion & Strategy</li>
+        <li>Islamic Lectures & Education</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Contact Me</h2>
+      <p>You can follow me on Instagram or reach me directly on WhatsApp for collaborations, bookings, or discussions.</p>
+      <a class="btn" href="https://www.instagram.com/shameem_k709?igsh=emRqamU2bHJybzY=" target="_blank">📸 Instagram</a>
+      <br><br>
+      <a class="btn" href="https://wa.me/918921752709" target="_blank">💬 WhatsApp Me</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Muhammed Shameem | All Rights Reserved
+  </footer>
+
+</body>
+</html>
